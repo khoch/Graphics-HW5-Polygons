@@ -1,0 +1,77 @@
+#----sun
+sphere
+0 250 100
+display
+clear
+#----mercury
+color
+180 30 0
+sphere
+125 250 4
+display
+clear
+#----venus
+color
+190 70 0
+sphere
+148 250 6
+display
+clear
+#----earth
+color
+0 120 130
+sphere
+180 250 10
+display
+clear
+#----mars
+color
+150 0 0
+sphere
+210 250 8
+display
+clear
+#----asteroid belt
+color
+150 150 150
+torus
+0 0 10 240
+ident
+xrotate
+60
+translate
+0 250 0
+apply
+display
+clear
+#----jupiter
+color
+190 70 0
+sphere
+290 250 25
+display
+clear
+#----saturn
+color
+140 90 0
+sphere
+345 250 18
+display
+clear
+#----uranus
+color
+160 160 250
+sphere
+385 250 13
+display
+clear
+#----neptune
+color
+80 80 250
+sphere
+420 250 13
+display
+clear
+#----
+display
+quit
